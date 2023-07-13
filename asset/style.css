@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+main{
+    margin:auto;
+    width: 80%;
+}
+li{
+    list-style: none;
+}
+
+.todo .newTodo input{
+    width: 90%;
+    border: 1px solid #f1f1e5da;
+    padding: 5px;
+} 
+.todo .newTodo button{
+    padding: 5px;
+    font-size: 1.2rem;
+    outline: none;
+    width: 10%;
+    border: 1px solid #ecebda;
+    
+}
+.todo .newTodo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.todo .newTodo button{
+    outline: none;
+}
+.todo ul{
+    padding: 10px 0px;
+}
+.todo ul li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.todo ul li p{
+    font-size:18px ;
+    font-weight: 300;
+}
+.todo ul li p i{
+    color: green;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.todo ul li button{
+    padding: 5px 10px;
+    font-size: 20px;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+
+/*keybord       */
+.keybord{
+    width: 600px;
+    margin: auto;
+}
+
+.keybord input{
+    padding: 5px;
+    font-size: 18px;
+}
